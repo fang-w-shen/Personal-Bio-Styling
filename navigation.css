@@ -1,7 +1,8 @@
 nav {
     background-color: goldenrod;
-    height: 30px;
-    display:inline;
+    height: 50px;
+    width:100%;
+    display:inline-block;
 }
 
 li {
@@ -19,13 +20,18 @@ li:hover {
     background-color: red;
 }
 a:active {
-	margin-left:5px;
-	margin-right:5px;
+	margin:5px;
 }
 ul {
 	padding-left:0;
 }
 a, li, nav, ul {
-	padding-left:0;
-	margin-left:0;
+	padding:0;
+	margin:0;
+}
+.l1 {
+	float:left;
+}
+.l2 {
+	float:right;
 }
