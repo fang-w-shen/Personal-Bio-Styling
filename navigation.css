@@ -1,0 +1,31 @@
+nav {
+    background-color: goldenrod;
+    height: 30px;
+    display:inline;
+}
+
+li {
+	display:inline-block;
+    list-style-type: none;
+    margin: 5px 15px 0 15px;
+    font-family: "Arial";
+    cursor: pointer;
+}
+
+a:hover{
+    color: white;
+}
+li:hover {
+    background-color: red;
+}
+a:active {
+	margin-left:5px;
+	margin-right:5px;
+}
+ul {
+	padding-left:0;
+}
+a, li, nav, ul {
+	padding-left:0;
+	margin-left:0;
+}
